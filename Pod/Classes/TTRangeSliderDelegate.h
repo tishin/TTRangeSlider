@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 @class TTRangeSlider;
 
-@protocol TTRangeSliderDelegate <NSObject>
+NS_SWIFT_UI_ACTOR @protocol TTRangeSliderDelegate <NSObject>
 
 @optional
 
